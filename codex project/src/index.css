@@ -237,26 +237,48 @@ a {
 .map-path {
   position: absolute;
   z-index: 2;
-  height: 74px;
+  height: 46px;
   border-radius: 999px;
   background: #d9c56b;
   box-shadow:
     inset 0 8px 0 rgba(255, 255, 255, 0.18),
     0 7px 0 rgba(91, 121, 56, 0.25);
+  transform-origin: center center;
 }
 
-.path-one {
-  left: 12%;
-  top: 49%;
-  width: 72%;
-  transform: rotate(-10deg);
+.path-army {
+  left: 23%;
+  top: 54%;
+  width: 29%;
+  transform: rotate(-8deg);
 }
 
-.path-two {
+.path-castle {
+  left: 50%;
+  top: 54%;
+  width: 31%;
+  transform: rotate(8deg);
+}
+
+.path-lab {
   left: 30%;
-  top: 22%;
-  width: 48%;
-  transform: rotate(35deg);
+  top: 33%;
+  width: 28%;
+  transform: rotate(34deg);
+}
+
+.path-builder {
+  left: 49%;
+  top: 33%;
+  width: 30%;
+  transform: rotate(-33deg);
+}
+
+.path-tower {
+  left: 49%;
+  top: 66%;
+  width: 18%;
+  transform: rotate(88deg);
 }
 
 .map-tree,
@@ -394,6 +416,16 @@ a {
   filter: saturate(1.12);
   background: rgba(255, 242, 156, 0.18);
   outline: none;
+}
+
+.building-token:hover .building-art,
+.building-token:focus-visible .building-art,
+.building-token.is-active .building-art {
+  filter: drop-shadow(0 0 14px rgba(255, 226, 111, 0.86));
+}
+
+.building-token:active {
+  transform: translateY(1px) scale(0.98);
 }
 
 .building-name,
@@ -635,6 +667,46 @@ a {
   background: #fff29c;
 }
 
+.building-art.signal-tower .body {
+  left: 43px;
+  width: 64px;
+  height: 98px;
+  background: #dfe8ea;
+}
+
+.building-art.signal-tower .roof {
+  left: 28px;
+  bottom: 96px;
+  width: 94px;
+  height: 38px;
+  background: #58a052;
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.building-art.signal-tower .door {
+  left: 61px;
+  width: 28px;
+  background: #40565a;
+}
+
+.building-art.signal-tower .flag {
+  right: 8px;
+  top: 0;
+  height: 62px;
+}
+
+.building-art.signal-tower .flag::after {
+  background: #e44a42;
+}
+
+.building-art.signal-tower .crest {
+  left: 55px;
+  bottom: 68px;
+  width: 40px;
+  height: 20px;
+  background: #77ddeb;
+}
+
 .modal-backdrop {
   position: fixed;
   z-index: 50;
@@ -697,7 +769,8 @@ a {
 }
 
 .mission-scroll,
-.goal-banner {
+.goal-banner,
+.why-tile {
   border: 4px solid #2e5836;
   border-radius: 8px;
   background: #fff4b0;
@@ -729,6 +802,15 @@ a {
     -2px 0 #24452e,
     0 2px #24452e,
     0 -2px #24452e;
+}
+
+.why-tile {
+  padding: 1rem;
+  font-weight: 900;
+}
+
+.why-tile {
+  background: #d9f3f5;
 }
 
 .info-tile,
@@ -883,6 +965,10 @@ a {
   .building-token:focus-visible,
   .building-token.is-active {
     transform: translate(-50%, -54%) scale(1.06);
+  }
+
+  .building-token:active {
+    transform: translate(-50%, -49%) scale(0.98);
   }
 }
 

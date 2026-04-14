@@ -8,27 +8,27 @@ const sections = [
     title: 'About',
     callout: 'Chief Profile',
     type: 'town-hall',
-    x: '46%',
-    y: '42%',
-    short: 'Product strategy base',
+    x: '50%',
+    y: '50%',
+    short: 'LiveOps strategy base',
     facts: [
       { label: 'Name', value: 'Sampurna Pal' },
       { label: 'Location', value: 'Vaasa, Finland' },
       {
         label: 'Status',
-        value: 'MSc Economics & Business Administration, Industrial Engineering & Management',
+        value: 'MSc student at University of Vaasa, Industrial Engineering & Management',
       },
     ],
     summary:
-      'Product-minded student with strong experience in KPI tracking, data analysis, operational reporting, and cross-functional collaboration.',
+      'Product-minded MSc student focused on LiveOps, monetization systems, player experience, and game economy design.',
     additional: [
-      'Works with AI tools: ChatGPT, Claude, and Perplexity',
-      'Contributes to development and evaluation of AI agents',
-      'Strong interest in game design, monetization systems, and player retention',
-      'Background in economics and game theory',
+      'Works with AI tools and evaluates AI-assisted workflows',
+      'Uses an analytical mindset to understand why systems work',
+      'Curious about progression loops, player motivation, and retention signals',
+      'Combines economics, game theory, and operational reporting experience',
     ],
     goal:
-      'Contribute to LiveOps, Monetization, and Product Strategy in gaming companies.',
+      'Contribute to LiveOps, Monetization, and Product Strategy by turning player and performance signals into thoughtful product decisions.',
   },
   {
     id: 'skills',
@@ -36,8 +36,8 @@ const sections = [
     title: 'Skills',
     callout: 'Troops Unlocked',
     type: 'army-camp',
-    x: '19%',
-    y: '59%',
+    x: '20%',
+    y: '58%',
     short: 'Analytics squad ready',
     categories: [
       {
@@ -46,30 +46,37 @@ const sections = [
           'Excel: advanced formulas, dashboards, pivot tables',
           'SAS',
           'Power BI: basic',
-          'Google Sheets',
-          'Data quality management',
-          'Trend identification',
+          'KPI tracking and operational dashboards',
+          'Data quality checks and trend identification',
         ],
       },
       {
-        label: 'Tools',
+        label: 'Product Thinking',
+        items: [
+          'Decision analysis',
+          'Operations strategy',
+          'Player journey thinking',
+          'Experimentation mindset',
+        ],
+      },
+      {
+        label: 'Tools & Workflow',
         items: [
           'Jira, Asana, Confluence',
           'Notion, Slack, Google Workspace',
-          'SAP: learning',
         ],
       },
       {
-        label: 'AI',
+        label: 'AI Tools',
         items: ['ChatGPT', 'Claude', 'Perplexity'],
       },
       {
-        label: 'Soft Skills',
+        label: 'Communication & Organization',
         items: [
           'Analytical thinking',
           'Structured problem-solving',
-          'Cross-functional collaboration',
-          'Communication',
+          'Cross-functional coordination',
+          'Clear reporting and documentation',
         ],
       },
     ],
@@ -80,8 +87,8 @@ const sections = [
     title: 'Experience',
     callout: 'Battle Logs',
     type: 'clan-castle',
-    x: '70%',
-    y: '53%',
+    x: '79%',
+    y: '57%',
     short: 'Cross-functional quests',
     jobs: [
       {
@@ -89,12 +96,12 @@ const sections = [
         org: 'SkillCat',
         date: 'Nov 2024 - Present',
         wins: [
-          'Managed 5+ concurrent workstreams',
-          'Built KPI dashboards for management reviews',
-          'Identified risks, dependencies, and data issues early',
-          'Standardized reporting systems',
+          'Tracked 5+ concurrent workstreams and kept ongoing work visible',
+          'Built KPI dashboards for management reviews and performance reporting',
+          'Identified risks, dependencies, and data issues early to support releases',
+          'Standardized documentation and reporting systems',
           'Coordinated across product, operations, and technical teams',
-          'Tested and improved AI agents for content, graphics, and automation',
+          'Tested and improved AI agents for content, graphics, and automation workflows',
         ],
       },
       {
@@ -102,9 +109,9 @@ const sections = [
         org: 'EssentiallySports & The SportsRush',
         date: '2023-2024',
         wins: [
-          'Managed high-volume content pipelines',
-          'Ensured quality, accuracy, and deadlines',
-          'Worked with international contributors across time zones',
+          'Managed high-volume content pipelines with release-like deadlines',
+          'Analyzed quality signals and improved workflows for speed and accuracy',
+          'Coordinated international contributors across time zones',
         ],
       },
       {
@@ -114,7 +121,7 @@ const sections = [
         wins: [
           'Maintained structured content systems',
           'Ensured data accuracy and documentation quality',
-          'Improved content using analytics and user feedback',
+          'Improved content using analytics, user feedback, and performance patterns',
         ],
       },
     ],
@@ -122,11 +129,11 @@ const sections = [
   {
     id: 'lab',
     building: 'Laboratory',
-    title: 'Research & Certifications',
+    title: 'Experiments & Systems Training',
     callout: 'Research Lab',
     type: 'laboratory',
-    x: '34%',
-    y: '22%',
+    x: '27%',
+    y: '24%',
     short: 'Experiments brewing',
     education: [
       {
@@ -140,7 +147,7 @@ const sections = [
       },
       {
         label: 'MSc Economics',
-        items: ['Game Theory', 'Decision-making models'],
+        items: ['Game Theory', 'Decision-making models', 'Player behavior reasoning'],
       },
     ],
     certifications: [
@@ -150,9 +157,25 @@ const sections = [
       'IELTS Band 7.5: C1',
     ],
     experiments: [
-      'AI-assisted workflows',
-      'Game economy design',
-      'Player behavior analysis in F2P games',
+      'AI workflow optimization',
+      'Game economy analysis',
+      'Player retention patterns',
+    ],
+  },
+  {
+    id: 'why-supercell',
+    building: 'Signal Tower',
+    title: 'Why Supercell?',
+    callout: 'Clan Fit',
+    type: 'signal-tower',
+    x: '48%',
+    y: '84%',
+    short: 'Small team, big impact',
+    reasons: [
+      'I am drawn to long-term player retention: making games that stay meaningful across months and years, not just launch moments.',
+      'LiveOps interests me because it turns continuous learning into better events, offers, and player experiences.',
+      'Supercell experimentation culture fits how I like to work: form a hypothesis, test, learn, and improve.',
+      'The small teams, big impact model matches my motivation to take ownership, communicate clearly, and support decisions with data.',
     ],
   },
   {
@@ -161,7 +184,7 @@ const sections = [
     title: 'Contact',
     callout: 'Builder Ready',
     type: 'builder-hut',
-    x: '79%',
+    x: '76%',
     y: '24%',
     short: 'Send a builder',
     contact: [
@@ -262,9 +285,11 @@ function LoadingScreen() {
           <span />
         </div>
         <p className="font-display text-4xl text-[#ffd447] outlined-text sm:text-6xl">
-          Scouting Village
+          Entering Village...
         </p>
-        <p className="mt-4 font-black text-[#20372e]">Deploying Sampurna&apos;s quest map...</p>
+        <p className="mt-4 font-black text-[#20372e]">
+          Deploying the LiveOps strategy map...
+        </p>
       </div>
     </section>
   );
@@ -294,8 +319,11 @@ function Village({ activeId, onOpen }) {
 
         <div className="map-board">
           <div className="map-river" aria-hidden="true" />
-          <div className="map-path path-one" aria-hidden="true" />
-          <div className="map-path path-two" aria-hidden="true" />
+          <div className="map-path path-army" aria-hidden="true" />
+          <div className="map-path path-castle" aria-hidden="true" />
+          <div className="map-path path-lab" aria-hidden="true" />
+          <div className="map-path path-tower" aria-hidden="true" />
+          <div className="map-path path-builder" aria-hidden="true" />
           <div className="map-tree tree-a" aria-hidden="true" />
           <div className="map-tree tree-b" aria-hidden="true" />
           <div className="map-tree tree-c" aria-hidden="true" />
@@ -504,6 +532,24 @@ function renderSectionContent(section) {
             </ul>
           </div>
         </div>
+      </div>
+    );
+  }
+
+  if (section.id === 'why-supercell') {
+    return (
+      <div className="space-y-4">
+        <p className="mission-scroll">
+          A strong LiveOps product culture is built on listening to players, learning
+          from data, and improving the game without losing sight of fun.
+        </p>
+        <ul className="grid gap-4 sm:grid-cols-2">
+          {section.reasons.map((reason) => (
+            <li className="why-tile" key={reason}>
+              {reason}
+            </li>
+          ))}
+        </ul>
       </div>
     );
   }
