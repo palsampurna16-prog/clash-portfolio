@@ -1,0 +1,50 @@
+<svg width="980" height="420" viewBox="0 0 980 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Original cartoony strategy village landscape</title>
+  <desc id="desc">A bright village island with stylized buildings, river, trees, and flags.</desc>
+  <rect width="980" height="420" rx="32" fill="#88D35F"/>
+  <path d="M0 305C92 276 148 318 233 290C333 257 398 197 517 223C631 248 696 330 810 293C879 270 916 235 980 252V420H0V305Z" fill="#55B95A"/>
+  <path d="M0 98C86 120 150 77 222 110C303 147 359 135 431 98C510 57 598 45 685 93C780 146 851 142 980 92V0H0V98Z" fill="#B0E36D"/>
+  <path d="M52 282C216 237 365 258 520 278C664 297 798 307 935 267" stroke="#4A9D50" stroke-width="24" stroke-linecap="round"/>
+  <path d="M50 292C213 248 364 268 518 287C663 306 798 316 935 277" stroke="#95E16A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M625 20C642 83 644 155 625 217C608 274 582 340 603 398" stroke="#40A7C7" stroke-width="56" stroke-linecap="round"/>
+  <path d="M625 20C642 83 644 155 625 217C608 274 582 340 603 398" stroke="#7BD8E9" stroke-width="34" stroke-linecap="round"/>
+  <g filter="url(#shadow)">
+    <path d="M312 198L388 156L464 198V280H312V198Z" fill="#F8D65D"/>
+    <path d="M296 199L388 126L480 199L452 221L388 170L324 221L296 199Z" fill="#D6423C"/>
+    <rect x="350" y="222" width="76" height="58" rx="10" fill="#4F6F74"/>
+    <rect x="371" y="238" width="34" height="42" rx="7" fill="#233F46"/>
+    <path d="M325 202H451" stroke="#B33031" stroke-width="11" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="136" y="164" width="92" height="72" rx="16" fill="#F6C75F"/>
+    <path d="M126 165L181 115L238 165L221 183L181 147L143 183L126 165Z" fill="#56A6D6"/>
+    <rect x="159" y="196" width="45" height="40" rx="8" fill="#38565C"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="730" y="143" width="104" height="87" rx="16" fill="#E7ECF0"/>
+    <path d="M718 146L782 95L846 146L829 168L782 130L735 168L718 146Z" fill="#B84A49"/>
+    <circle cx="782" cy="184" r="20" fill="#58B9C9"/>
+    <rect x="766" y="205" width="32" height="25" rx="7" fill="#465D61"/>
+  </g>
+  <g>
+    <path d="M860 91V172" stroke="#5E4B33" stroke-width="9" stroke-linecap="round"/>
+    <path d="M865 98H923L908 126H865V98Z" fill="#F5CE48"/>
+    <path d="M95 109V183" stroke="#5E4B33" stroke-width="8" stroke-linecap="round"/>
+    <path d="M99 117H153L139 145H99V117Z" fill="#E94C4C"/>
+  </g>
+  <g fill="#2D8C4F">
+    <circle cx="68" cy="235" r="20"/>
+    <circle cx="92" cy="219" r="23"/>
+    <circle cx="113" cy="242" r="20"/>
+    <rect x="84" y="244" width="12" height="35" rx="6" fill="#7D5A39"/>
+    <circle cx="888" cy="334" r="22"/>
+    <circle cx="915" cy="315" r="25"/>
+    <circle cx="939" cy="340" r="22"/>
+    <rect x="909" y="340" width="13" height="38" rx="6" fill="#7D5A39"/>
+  </g>
+  <defs>
+    <filter id="shadow" x="100" y="80" width="770" height="230" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="5" flood-color="#31583B" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+</svg>
