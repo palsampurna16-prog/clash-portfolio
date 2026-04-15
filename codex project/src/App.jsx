@@ -191,6 +191,12 @@ const sections = [
       { label: 'Base', value: 'Vaasa, Finland' },
       { label: 'Email', value: 'palsampurna16@gmail.com', href: 'mailto:palsampurna16@gmail.com' },
       { label: 'Phone', value: '+358 468023928', href: 'tel:+358468023928' },
+      {
+        label: 'LinkedIn',
+        value: 'Connect on LinkedIn',
+        href: 'https://www.linkedin.com/in/sampurna-pal/',
+        note: 'More details on experience and background',
+      },
       { label: 'Work Status', value: 'Right to work in Finland' },
     ],
   },
@@ -560,12 +566,18 @@ function renderSectionContent(section) {
         <div className="contact-tile" key={item.label}>
           <p className="font-display text-xl text-[#ffe26f] outlined-text">{item.label}</p>
           {item.href ? (
-            <a href={item.href} className="contact-link">
+            <a
+              href={item.href}
+              className={`contact-link ${item.label === 'LinkedIn' ? 'profile-button' : ''}`}
+              target={item.href.startsWith('http') ? '_blank' : undefined}
+              rel={item.href.startsWith('http') ? 'noreferrer' : undefined}
+            >
               {item.value}
             </a>
           ) : (
             <p className="font-black text-[#fff6a8]">{item.value}</p>
           )}
+          {item.note && <p className="contact-note">{item.note}</p>}
         </div>
       ))}
     </div>

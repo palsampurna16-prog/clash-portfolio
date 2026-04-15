@@ -895,6 +895,45 @@ a {
   text-underline-offset: 5px;
 }
 
+.profile-button {
+  margin-top: 0.35rem;
+  border: 3px solid #24452e;
+  border-radius: 8px;
+  background: #ffd447;
+  padding: 0.55rem 0.75rem;
+  color: #24452e;
+  text-decoration: none;
+  box-shadow:
+    0 5px 0 rgba(69, 79, 39, 0.42),
+    0 0 0 rgba(255, 226, 111, 0);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    filter 180ms ease;
+}
+
+.profile-button:hover,
+.profile-button:focus-visible {
+  transform: translateY(-2px) scale(1.04);
+  box-shadow:
+    0 6px 0 rgba(69, 79, 39, 0.42),
+    0 0 18px rgba(255, 226, 111, 0.82);
+  filter: saturate(1.1);
+  outline: none;
+}
+
+.profile-button:active {
+  transform: translateY(2px) scale(0.98);
+}
+
+.contact-note {
+  margin-top: 0.55rem;
+  color: #eaf8d7;
+  font-size: 0.78rem;
+  font-weight: 900;
+  line-height: 1.35;
+}
+
 @keyframes panel-pop {
   from {
     opacity: 0;
